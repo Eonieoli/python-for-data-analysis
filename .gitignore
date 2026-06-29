@@ -1,0 +1,21 @@
+# uv가 재생성하는 가상환경 — 절대 커밋 안 함
+.venv/
+
+# 파이썬 캐시/컴파일 산출물
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter 자동 백업·체크포인트
+.ipynb_checkpoints/
+
+# OS·에디터 부산물
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# (선택) 책 실습용 대용량 데이터 — 직접 받는 거라 보통 커밋 안 함
+datasets/
+examples/
