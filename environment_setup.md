@@ -43,7 +43,8 @@ uv init --python 3.13 .     # pyproject.toml + .venv 골격 생성
 ```powershell
 uv add numpy "pandas[performance]" matplotlib jupyterlab ipython `
        scipy scikit-learn statsmodels seaborn patsy `
-       openpyxl lxml beautifulsoup4 html5lib requests pyarrow sqlalchemy
+       openpyxl lxml xlrd beautifulsoup4 html5lib requests `
+       tables pyarrow sqlalchemy
 ```
 
 | 묶음 | 패키지 | 책에서 쓰이는 곳 |
